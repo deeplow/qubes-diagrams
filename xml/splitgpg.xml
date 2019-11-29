@@ -1,0 +1,64 @@
+<mxGraphModel dx="813" dy="-378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-1" value="work-email" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=#333333;startSize=23;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="360" y="961" width="160" height="279" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-4" value="qubes-gpg-client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="a4uNOnJV3Jtg4HP1V-e4-1">
+      <mxGeometry x="20" y="39" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/3d-softwarefx/128/Thunderbird.png" vertex="1" parent="a4uNOnJV3Jtg4HP1V-e4-1">
+      <mxGeometry x="30" y="149" width="100" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-7" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="a4uNOnJV3Jtg4HP1V-e4-1" source="a4uNOnJV3Jtg4HP1V-e4-6" target="a4uNOnJV3Jtg4HP1V-e4-4">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint y="349" as="sourcePoint"/>
+        <mxPoint x="50" y="299" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-2" value="work-gpg" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000000;fillColor=#808080;fontColor=#FFFFFF;startSize=23;swimlaneFillColor=#ffffff;gradientColor=none;" vertex="1" parent="1">
+      <mxGeometry x="680" y="960" width="160" height="280" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-5" value="qubes-gpg-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;strokeColor=#808080;fontColor=#000000;" vertex="1" parent="a4uNOnJV3Jtg4HP1V-e4-2">
+      <mxGeometry x="20" y="39" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-8" value="GPG keys" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="a4uNOnJV3Jtg4HP1V-e4-2">
+      <mxGeometry x="50" y="189" width="60" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-10" value="/usr/bin/gpg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;strokeColor=#808080;fontColor=#000000;fontSize=10;" vertex="1" parent="a4uNOnJV3Jtg4HP1V-e4-2">
+      <mxGeometry x="35" y="127" width="90" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-11" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="a4uNOnJV3Jtg4HP1V-e4-2" source="a4uNOnJV3Jtg4HP1V-e4-10" target="a4uNOnJV3Jtg4HP1V-e4-5">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="-150" y="159" as="sourcePoint"/>
+        <mxPoint x="-150" y="109" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-12" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="a4uNOnJV3Jtg4HP1V-e4-2" source="a4uNOnJV3Jtg4HP1V-e4-8" target="a4uNOnJV3Jtg4HP1V-e4-10">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="80" y="180" as="sourcePoint"/>
+        <mxPoint x="80" y="160" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-14" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=10;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;strokeWidth=2;" edge="1" parent="1" source="a4uNOnJV3Jtg4HP1V-e4-4" target="a4uNOnJV3Jtg4HP1V-e4-5">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="230" y="1120" as="sourcePoint"/>
+        <mxPoint x="280" y="1070" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-15" value="&lt;div&gt;qrexec protocol&lt;/div&gt;&lt;div&gt;(qubes.GPG)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];;labelBackgroundColor=none;fontSize=10;fontColor=#000000;labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="a4uNOnJV3Jtg4HP1V-e4-14">
+      <mxGeometry x="0.0785" y="-1" relative="1" as="geometry">
+        <mxPoint x="-4.5" y="-1.5" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-18" value="&lt;div&gt;&lt;b&gt;qubes-gpg-client&lt;/b&gt;&lt;/div&gt;&lt;div&gt;pretends to be a&lt;/div&gt;&lt;div&gt;standard&lt;/div&gt;&lt;div&gt;&lt;b&gt;/usr/bin/gpg&lt;/b&gt; to&lt;/div&gt;&lt;div&gt;other apps&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=19;align=center;verticalAlign=middle;container=1;recursiveResize=0;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="540" y="1070" width="120" height="70" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4uNOnJV3Jtg4HP1V-e4-19" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;dashed=1;dashPattern=1 1;strokeWidth=2;fontSize=10;fontColor=#000000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" target="a4uNOnJV3Jtg4HP1V-e4-18" parent="1" source="a4uNOnJV3Jtg4HP1V-e4-4">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="500" y="1100.5" as="sourcePoint"/>
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
